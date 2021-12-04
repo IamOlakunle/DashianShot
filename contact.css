@@ -1,0 +1,70 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(39, 37, 39);
+    background-blend-mode: overlay;
+    background-image: url(/img/skyblue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  form {
+      border: 5px solid #eee;
+      display: block;
+      color: white;
+      margin: 30%;
+      padding: 30px;
+      background-color: rgb(114, 114, 14);
+  }
+
+  label, input, textarea, button {
+      display: block;
+
+  }
+
+  label {
+      margin-bottom: 4px;
+  }
+
+  input {
+    margin-bottom: 4px;
+    width: 100%;
+    border: 1px solid #aaa;
+    padding: 5px;
+  }
+  textarea {
+    margin-bottom: 4px;
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid #aaa;
+    padding: 5px;
+  }
+
+  button {
+    border: 1px solid #aaa;
+    padding: 20px;
+    background-color:rgb(145, 145, 6);
+    align-self: center;
+    color: white;
+    border-radius: 5px;
+    margin: 10px auto;
+    text-decoration: none;
+  }
+
+  button.homepage {
+    border: 1px solid #aaa;
+    padding: 10px;
+    /* background-color: rgb(145, 145, 6); */
+    align-self: center;
+    color: white;
+    border-radius: 5px;
+    margin:20px;
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+  header a .homepage {
+      text-decoration: none;
+      list-style-type: none;
+  }

@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(48, 43, 48);
+  background-blend-mode: overlay;
+  background-image: url(/img/skyblue.png);
+  background-repeat: no-repeat;
+}
+
+
+/* Style the header */
+header {
+    padding: 10px;
+    color: rgb(252, 252, 252);
+    font-size: 15px;
+    list-style-type: none;
+    text-decoration: none;
+  }
+
+header div h1 {
+    width: 120px;
+    padding: 10px;
+    border-style: solid;
+    box-sizing: content-box;
+    border-color: rgb(252, 252, 252);
+    border-radius: 15px 5px;
+    border-top-color: rgba(179, 179, 130, 0.5);
+    border-bottom-color: rgba(179, 179, 130, 0.5);
+}
+
+header p {
+    font-family: sans-serif;
+    color: rgb(243, 243, 8);
+    font-style: italic;
+    font-family: sans-serif;
+    text-justify: center;
+    text-align: center;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* Create two columns/boxes that floats next to each other */
+.navigation {
+  /* width: 100%; */
+  /* background: rgb(252, 252, 252); */
+  padding: 30px;
+  opacity: 1;
+  text-decoration: none; 
+}
+
+/* Style the list inside the menu */
+
+
+.navigation ul {  
+  list-style-type: none;
+  border-width: 20px;
+}
+
+a {
+  padding: 30px;
+  text-decoration: none;
+  list-style-type: none;
+  color: rgb(243, 243, 80);
+  border-width: 15px;
+  border-radius: 25px;
+}
+
+
+a:hover {
+    background-color: rgb(110, 109, 109);
+    border-width: 10px;
+    opacity: 1;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+    /* border-width: 90px; */
+}
+
+div.correct {
+  width:50px;
+  padding:10px;
+  margin-top: 0 auto;
+  color:rgb(252, 252, 252); ;
+  opacity: 1;
+}
+
+ div.duplicate {
+  display: inline;
+  width:10px;
+  padding-top: 2px;
+  background-color: rgb(0, 0, 0);
+  color:rgb(252, 252, 252); ;
+  opacity: 1;
+ }
+
+
+div footer  {
+  border: 5px solid white;
+  color: rgb(243, 243, 80);
+  text-align: center;
+  align-content: center;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+
+
+#nav {
+  display: block;
+  color: white;
+  float:right;
+  padding-right: 5px;
+}
+
+
+/* Css Image Gallery */
+
+div.img {
+      margin: 10px;
+      margin-right: 20px;
+      padding: 5px;
+      border: 5px solid rgb(243, 243, 8);
+      border-radius: 10px;
+      float: right;
+      background-color: grey;
+  }
+  
+div.img img {
+      display: inline-flex;
+      margin: 10px;
+      border: 5px solid #ffffff;
+      border-radius: 5px;
+    }
+  
+div.img a:hover img {
+      border:1px solid whitesmoke;
+      height: 400px;
+      width: 400px;
+    }
+          
+div.desc {
+      text-align: center;
+      font-weight: bold;
+    }
